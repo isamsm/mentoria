@@ -25,13 +25,15 @@ function App() {
       <div className="flex flex-row w-screen font-dm">
         <Sidebar />
         <div className="w-screen ml-24">
-          <Header />
+          <div className='mb-32 md:mb-20 lg:mb-20'>
+            <Header />
+          </div>
           <div className="bg-slate-100 text-black">
             <div className="px-2 md:px-10 lg:px-10 pt-5">
               <div className="flex justify-between gap-5 md:gap-0 lg:gap-0 pb-5">
                 <h3 className="text-xl font-bold"> Mentorados</h3>
                 <div className="flex gap-4 items-center">
-                  <img src={arrow} className="h-4 w-4" />
+                  <img src={arrow} className="h-4 w-4" alt='icone de seta'/>
                   <p> Voltar</p>
                 </div>
               </div>
@@ -39,7 +41,7 @@ function App() {
                 <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5">
                   <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                     <div>
-                      <img src={helio} className="h-40 w-40 img-fix"/>
+                      <img src={helio} className="h-40 w-40 img-fix" alt='foto de mentorado'/>
                     </div>
                     <div>
                       <div className="flex flex-col lg:flex-row justify-between">
@@ -47,7 +49,7 @@ function App() {
                           {' '}
                           Italo Souza Pereira{' '}
                         </h2>
-                        <img src={edit} className="h-10 w-10"/>
+                        <img src={edit} className="h-10 w-10" alt='icone de edição'/>
                       </div>
                       <div className="flex flex-col gap-5">
                         <p className="text-sm text-slate-500 font-poppins">
@@ -55,9 +57,9 @@ function App() {
                           Lead Marketing Digital{' '}
                         </p>
                         <div className="flex gap-3">
-                          <img src={instagram} className="h-10 w-10" />
-                          <img src={facebook} className="h-10 w-10" />
-                          <img src={youtube} className="h-10 w-10" />
+                          <img src={instagram} className="h-10 w-10" alt='icone instagram'/>
+                          <img src={facebook} className="h-10 w-10" alt='icone facebook'/>
+                          <img src={youtube} className="h-10 w-10" alt='icone youtube'/>
                         </div>
                       </div>
                     </div>
@@ -66,7 +68,7 @@ function App() {
                 <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
                     <h3 className="text-2xl font-bold"> Sobre </h3>
-                    <img src={edit} className="h-10 w-10" />
+                    <img src={edit} className="h-10 w-10" alt='icone de edição'/>
                   </div>
                   <div className="flex flex-col gap-5 pt-5 font-poppins">
                     <p className="text-sm text-slate-500">
@@ -96,35 +98,35 @@ function App() {
                         style={{ backgroundColor: '#4963FF' }}
                         className="flex gap-2 items-center text-sm text-white"
                       >
-                        <img src={whatsapp} className="h-6 w-6" />
+                        <img src={whatsapp} className="h-6 w-6" alt='icone whatsapp'/>
                         Entre em contato
                       </button>
-                      <img src={plus} className="h-10 w-10" />
+                      <img src={plus} className="h-10 w-10" alt='icone de adição'/>
                     </div>
                   </div>
                   <div className="flex flex-col lg:flex-row justify-between pt-5">
                     <div className="flex items-center gap-3">
-                      <img src={tel} className="h-9 w-9" />
+                      <img src={tel} className="h-9 w-9" alt='icone telefone'/>
                       <p className="text-slate-500"> Telefone </p>
                     </div>
                     <div className="flex md:items-center lg:items-center gap-5">
                       <p className="font-bold"> +55 11 91234-5671 </p>
-                      <img src={trash} className="h-5 w-5" />
+                      <img src={trash} className="h-5 w-5" alt='icone apagar'/>
                     </div>
                   </div>
                   <div className="flex flex-col lg:flex-row justify-between pt-5">
                     <div className="flex items-center gap-3">
-                      <img src={email} className="h-9 w-9" />
+                      <img src={email} className="h-9 w-9" alt='icone email'/>
                       <p className="text-slate-500"> Email </p>
                     </div>
                     <div className="flex md:items-center lg:items-center gap-5">
                       <p className="font-bold"> loremimpsum@dolor.sit</p>
-                      <img src={trash} className="h-5 w-5" />
+                      <img src={trash} className="h-5 w-5" alt='icone apagar'/>
                     </div>
                   </div>
                   <div className="flex flex-col lg:flex-row justify-between pt-5">
                     <div className="flex items-center gap-3">
-                      <img src={calendar} className="h-9 w-9" />
+                      <img src={calendar} className="h-9 w-9" alt='icone calendário'/>
                       <p className="text-slate-500"> Aniversário </p>
                     </div>
                     <div className="flex md:items-center lg:items-center gap-5">
@@ -133,35 +135,35 @@ function App() {
                         <span className="text-slate-500"> 24 Anos | </span>{' '}
                         24/05/2000{' '}
                       </p>
-                      <img src={trash} className="h-5 w-5" />
+                      <img src={trash} className="h-5 w-5" alt='icone apagar'/>
                     </div>
                   </div>
                   <div className="flex flex-col lg:flex-row justify-between pt-5">
                     <div className="flex items-center gap-3">
-                      <img src={company} className="h-9 w-9" />
+                      <img src={company} className="h-9 w-9" alt='icone empresa'/>
                       <p className="text-slate-500"> Empresa onde trabalha </p>
                     </div>
                     <div className="flex md:items-center lg:items-center gap-5">
                       <p className="font-bold"> Ifood </p>
-                      <img src={trash} className="h-5 w-5" />
+                      <img src={trash} className="h-5 w-5" alt='icone apagar'/>
                     </div>
                   </div>
                 </div>
                 <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5 font-poppins">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
                     <h3 className="text-2xl font-bold font-dm"> Mentores </h3>
-                    <img src={edit} className="h-10 w-10" />
+                    <img src={edit} className="h-10 w-10" alt='icone de edição'/>
                   </div>
                   <div className="flex flex-col lg:flex-row pt-5 gap-3">
                     <div className="bg-white border-2 border-slate-200 rounded-lg lg:w-6/12 p-5">
                       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                         <div>
-                          <img src={helio} className="h-16 w-16" />
+                          <img src={helio} className="h-16 w-16" alt='foto mentor'/>
                         </div>
                         <div>
                           <div className="flex justify-between">
                             <h2 className="font-bold pr-12"> Helio Martins </h2>
-                            <img src={trash} className="h-5 w-5" />
+                            <img src={trash} className="h-5 w-5" alt='icone apagar'/>
                           </div>
                           <div className="flex flex-col gap-5">
                             <p className="text-sm text-slate-500">
@@ -175,12 +177,12 @@ function App() {
                     <div className="bg-white border-2 border-slate-200 rounded-lg lg:w-6/12 p-5">
                       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                         <div>
-                          <img src={helio} className="h-16 w-16" />
+                          <img src={helio} className="h-16 w-16" alt='foto mentor'/>
                         </div>
                         <div>
                           <div className="flex justify-between">
                             <h2 className="font-bold pr-12"> Helio Martins </h2>
-                            <img src={trash} className="h-5 w-5" />
+                            <img src={trash} className="h-5 w-5" alt='icone apagar'/>
                           </div>
                           <div className="flex flex-col gap-5">
                             <p className="text-sm text-slate-500">
@@ -195,12 +197,12 @@ function App() {
                   <div className="bg-white border-2 border-slate-200 rounded-lg lg:w-6/12 p-5 mt-5">
                     <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                       <div>
-                        <img className="h-16 w-16" src={helio} />
+                        <img className="h-16 w-16" src={helio} alt='foto mentor'/>
                       </div>
                       <div>
                         <div className="flex justify-between">
                           <h2 className="font-bold pr-12"> Helio Martins </h2>
-                          <img src={trash} className="h-5 w-5" />
+                          <img src={trash} className="h-5 w-5" alt='icone apagar'/>
                         </div>
                         <div className="flex flex-col gap-5">
                           <p className="text-sm text-slate-500">
@@ -218,13 +220,13 @@ function App() {
                 <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
                     <h3 className="text-2xl font-bold font-dm"> Anexos </h3>
-                    <img src={plus} className="h-10 w-10" />
+                    <img src={plus} className="h-10 w-10" alt='icone adição'/>
                   </div>
                   <div className="flex flex-col lg:flex-row pt-5">
                     <div className="bg-white border-2 border-slate-200 lg:w-full rounded-lg p-5">
                       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                         <div>
-                          <img src={file} className="h-9 w-9" />
+                          <img src={file} className="h-9 w-9" alt='icone arquivo'/>
                         </div>
                         <div>
                           <div className="flex flex-col lg:flex-row justify-between">
@@ -232,14 +234,14 @@ function App() {
                               {' '}
                               ATA DE REUNÃO 05.12.23 - Italo Silva.pdf{' '}
                             </h2>
-                            <img src={download} className="h-5 w-5" />
+                            <img src={download} className="h-5 w-5" alt='icone download'/>
                           </div>
                           <div className="flex flex-col lg:flex-row justify-between">
                             <p className="text-sm text-slate-500">
                               {' '}
                               Anexado 04/12/2023 ás 15:00
                             </p>
-                            <img src={trash} className="h-5 w-5 mt-2" />
+                            <img src={trash} className="h-5 w-5 mt-2" alt='icone apagar'/>
                           </div>
                         </div>
                       </div>
@@ -249,7 +251,7 @@ function App() {
                     <div className="bg-white border-2 border-slate-200 lg:w-full rounded-lg p-5">
                       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                         <div>
-                          <img src={file} className="h-9 w-9" />
+                          <img src={file} className="h-9 w-9" alt='icone arquivo'/>
                         </div>
                         <div>
                           <div className="flex flex-col lg:flex-row justify-between">
@@ -257,14 +259,14 @@ function App() {
                               {' '}
                               ATA DE REUNÃO 05.12.23 - Italo Silva.pdf{' '}
                             </h2>
-                            <img src={download} className="h-5 w-5" />
+                            <img src={download} className="h-5 w-5" alt='icone download'/>
                           </div>
                           <div className="flex flex-col lg:flex-row justify-between">
                             <p className="text-sm text-slate-500">
                               {' '}
                               Anexado 04/12/2023 ás 15:00
                             </p>
-                            <img src={trash} className="h-5 w-5 mt-2" />
+                            <img src={trash} className="h-5 w-5 mt-2" alt='icone apagar'/>
                           </div>
                         </div>
                       </div>
@@ -274,19 +276,19 @@ function App() {
                 <div className="bg-white overflow-hidden border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5 font-poppins h-full crop">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
                     <h3 className="text-2xl font-bold font-dm"> Anotações </h3>
-                    <img src={plus} className="h-10 w-10" />
+                    <img src={plus} className="h-10 w-10" alt='icone adição'/>
                   </div>
                   <div className="flex flex-col lg:flex-row pt-5">
                     <div className="border-2 border-slate-200 lg:w-full rounded-lg p-5">
                       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                         <div>
-                          <img src={helio} className="h-9 w-9 rounded-full" />
+                          <img src={helio} className="h-9 w-9 rounded-full" alt='foto mentor'/>
                         </div>
                         <div>
                           <div className="flex justify-between items-center">
                             <h2 className="font-bold"> Helio Martins </h2>
                             <div className="flex gap-2 lg:pl-80">
-                              <img src={calendar_2} className="h-5 w-5"/>
+                              <img src={calendar_2} className="h-5 w-5" alt='icone calendário'/>
                               <p className="text-sm"> 25/10/24 </p>
                             </div>
                           </div>
@@ -303,7 +305,7 @@ function App() {
                           {' '}
                           Pontos de melhorias em sua timidez{' '}
                         </h3>
-                        <img src={trash} className="h-5 w-5" />
+                        <img src={trash} className="h-5 w-5" alt='icone apagar'/>
                       </div>
                       <p className="text-sm text-slate-500">
                         {' '}
@@ -321,13 +323,13 @@ function App() {
                     <div className="border-2 border-slate-200 lg:w-full rounded-lg p-5">
                       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                         <div>
-                          <img src={helio} className="h-9 w-9 rounded-full" />
+                          <img src={helio} className="h-9 w-9 rounded-full" alt='foto mentor'/>
                         </div>
                         <div>
                           <div className="flex justify-between items-center">
                             <h2 className="font-bold"> Helio Martins </h2>
                             <div className="flex gap-2 lg:pl-80">
-                              <img src={calendar_2} className="h-5 w-5" />
+                              <img src={calendar_2} className="h-5 w-5" alt='icone calendário'/>
                               <p className="text-sm"> 25/10/24 </p>
                             </div>
                           </div>
@@ -344,7 +346,7 @@ function App() {
                           {' '}
                           Pontos de melhorias em sua timidez{' '}
                         </h3>
-                        <img src={trash} className="h-5 w-5" />
+                        <img src={trash} className="h-5 w-5" alt='icone apagar'/>
                       </div>
                       <p className="text-sm text-slate-500">
                         {' '}

@@ -18,19 +18,19 @@ export default function Sidebar() {
           <img src={logo} className='h-12'/>
           <hr className='border-white w-20 m-2 opacity-20'/>
         </div>
-        <img src={home} className='h-6'/>
-        <img src={kanban} className='h-6'/>
-        <img src={route} className='h-6'/>
-        <img src={schedule} className='h-6'/>
-        <img src={calendar} className='h-6'/>
-        <img src={admin} className='h-6'/>
-        <img src={communication} className='h-6'/>
-        <img src={education} className='h-12'/>
-        <img src={invoices} className='h-6'/>
+        <img src={home} className='h-6' alt='icone inicio'/>
+        <img src={kanban} className='h-6' alt='icone kanban'/>
+        <img src={route} className='h-6' alt='icone rotas'/>
+        <img src={schedule} className='h-6' alt='icone horários'/>
+        <img src={calendar} className='h-6' alt='icone calendário'/>
+        <img src={admin} className='h-6' alt='icone adminisitração'/>
+        <img src={communication} className='h-6' alt='icone comunicação'/>
+        <img src={education} className='h-12' alt='icone professores'/>
+        <img src={invoices} className='h-6' alt='icone escalação'/>
         <hr className='border-white w-20 m-2 opacity-20 mt-24'/>
         <div className='flex gap-2 justify-center pb-12'>
           <p className='font-semibold'> Sair </p>
-          <img src={exit} />
+          <img src={exit} alt='icone sair'/>
         </div>
       </div>
     </>
