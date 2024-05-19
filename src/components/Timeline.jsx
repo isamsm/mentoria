@@ -15,7 +15,7 @@ export default function Timeline() {
     <>
       <div className="flex flex-col md:flex-row lg:flex-row gap-5 pb-5 font-poppins">
         <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-full lg:w-full p-5">
-          <h3 className="text-2xl font-bold"> Jornada </h3>
+          <h3 className="text-2xl font-bold font-dm"> Jornada </h3>
           <div className="pt-5 flex gap-5">
             <div className="flex flex-col items-center gap-1">
               <img src={check} />
@@ -34,7 +34,7 @@ export default function Timeline() {
                   <img src={arrow_up} />
                 </div>
                 <div className="flex flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center gap-1 md:gap-5 lg:gap-5 md:pt-5 lg:pt-5">
-                  <h3 className="font-bold text-2xl"> 1° Etapa </h3>
+                  <h3 className="font-bold text-2xl font-dm"> 1° Etapa </h3>
                   <a className="border-4 border-slate-300 rounded-full" />
                   <img src={lucio} />
                   <h3 className="font-semibold text-xl"> Lucio Santana </h3>
@@ -78,7 +78,7 @@ export default function Timeline() {
                   <img src={arrow_down} />
                 </div>
                 <div className="flex flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center gap-1 md:gap-5 lg:gap-5 md:pt-5 lg:pt-5">
-                  <h3 className="font-bold text-2xl"> 2° Etapa </h3>
+                  <h3 className="font-bold text-2xl font-dm"> 2° Etapa </h3>
                   <a className="border-4 border-slate-300 rounded-full" />
                   <img src={lucio} />
                   <h3 className="font-semibold text-xl"> Lucio Santana </h3>
@@ -90,7 +90,7 @@ export default function Timeline() {
                   <img src={arrow_down} />
                 </div>
                 <div className="flex flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center gap-1 md:gap-5 lg:gap-5 md:pt-5 lg:pt-5">
-                  <h3 className="font-bold text-2xl"> 3° Etapa </h3>
+                  <h3 className="font-bold text-2xl font-dm"> 3° Etapa </h3>
                   <a className="border-4 border-slate-300 rounded-full" />
                   <img src={lucio} />
                   <h3 className="font-semibold text-xl"> Lucio Santana </h3>
@@ -102,7 +102,7 @@ export default function Timeline() {
                   <img src={arrow_down} />
                 </div>
                 <div className="flex flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center gap-1 md:gap-5 lg:gap-5 md:pt-5 lg:pt-5">
-                  <h3 className="font-bold text-2xl"> 4° Etapa </h3>
+                  <h3 className="font-bold text-2xl font-dm"> 4° Etapa </h3>
                   <a className="border-4 border-slate-300 rounded-full" />
                   <img src={lucio} />
                   <h3 className="font-semibold text-xl"> Lucio Santana </h3>
@@ -110,50 +110,94 @@ export default function Timeline() {
               </div>
             </div>
           </div>
-          <div className="pt-16">
+          <div className="py-16">
             <div className="flex justify-between">
-              <h3 className="text-2xl font-bold"> Atividades </h3>
+              <h3 className="text-2xl font-bold font-dm"> Atividades </h3>
               <div className="flex gap-5">
                 <img src={plus} />
                 <img src={funnel} />
               </div>
             </div>
-            <div className="flex justify-between p-8 font-semibold">
-              <div>
-                <p className="text-slate-500"> Nome da tarefa </p>
-                <p> Leia o livro “Arte da Guerra e faça um resumo </p>
-              </div>
-              <div>
-                <p className="text-slate-500"> Mentor </p>
-                <div className="flex gap-3 border-2 border-slate-300 w-72 rounded-lg p-3">
-                  <div>
-                    <img src={helio} className="h-12 w-12" />
-                  </div>
-                  <div>
-                    <p> Helio Martins</p>
-                    <p className="text-slate-500"> Mentor educação </p>
-                  </div>
+            <div className="flex flex-col md:flex-row lg:flex-row justify-between pt-8 px-8 pb-4 font-semibold font-dm gap-5 md:gap-0 lg:gap-0">
+              <p className="text-slate-500 w-6/12"> Nome da tarefa </p>
+              <p className="text-slate-500 w-4/12"> Mentor </p>
+              <p className="text-slate-500 w-2/12"> Etapas </p>
+              <p className="text-slate-500 w-2/12"> Data de validade </p>
+              <p className="text-slate-500 w-1/12"> Status </p>
+            </div>
+            <hr className='border-slate-300'/>
+            <div className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center justify-between p-5 gap-5 md:gap-0 lg:gap-0">
+              <p className='font-semibold md:w-4/12'> Leia o livro “Arte da Guerra e faça um resumo </p>
+              <div className="flex md:flex-col gap-3 border-2 border-slate-300 md:w-36 lg:w-72 rounded-lg p-3">
+                <div>
+                  <img src={helio} className="h-12 w-12"/>
+                </div>
+                <div>
+                  <p> Helio Martins</p>
+                  <p className="text-slate-500"> Mentor educação </p>
                 </div>
               </div>
-              <div>
-                <p className="text-slate-500"> Etapas </p>
-                <h3 className="font-semibold"> 2° Etapas </h3>
+              <h3 className="font-semibold"> 2° Etapas </h3>
+              <div className="flex gap-3">
+                <img src={calendar_2} className="h-5 w-5" />
+                <p> 25/10/24 </p>
               </div>
               <div>
-                <p className="text-slate-500"> Data de validade </p>
-                <div className="flex items-center gap-3">
-                  <img src={calendar_2} className="h-5 w-5" />
-                  <p className="font-semibold text-slate-500"> 25/10/24 </p>
-                </div>
-              </div>
-              <div>
-                <p className="text-slate-500"> Status </p>
-                <button className="bg-green-400 font-semibold">
+                <p style={{backgroundColor: '#BCF0AA'}} className="text-green-800 rounded px-3 py-2 font-semibold">
                   {' '}
                   Concluido{' '}
-                </button>
+                </p>
               </div>
             </div>
+            <hr className='border-slate-300'/>
+            <div className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center justify-between p-5 gap-5 md:gap-0 lg:gap-0">
+              <p className='font-semibold md:w-4/12'> Leia o livro “Arte da Guerra e faça um resumo </p>
+              <div className="flex md:flex-col gap-3 border-2 border-slate-300 md:w-36 lg:w-72 rounded-lg p-3">
+                <div>
+                  <img src={helio} className="h-12 w-12" />
+                </div>
+                <div>
+                  <p> Helio Martins</p>
+                  <p className="text-slate-500"> Mentor educação </p>
+                </div>
+              </div>
+              <h3 className="font-semibold"> 1° Etapas </h3>
+              <div className="flex gap-3">
+                <img src={calendar_2} className="h-5 w-5" />
+                <p> 25/10/24 </p>
+              </div>
+              <div>
+                <p style={{backgroundColor: '#BCF0AA'}} className="text-green-800 rounded px-3 py-2 font-semibold">
+                  {' '}
+                  Concluido{' '}
+                </p>
+              </div>
+            </div>
+            <hr className='border-slate-300'/>
+            <div className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center justify-between p-5 gap-5 md:gap-0 lg:gap-0">
+              <p className='font-semibold md:w-4/12'> Leia o livro “Arte da Guerra e faça um resumo </p>
+              <div className="flex md:flex-col gap-3 border-2 border-slate-300 md:w-36 lg:w-72 rounded-lg p-3">
+                <div>
+                  <img src={helio} className="h-12 w-12"/>
+                </div>
+                <div>
+                  <p> Helio Martins</p>
+                  <p className="text-slate-500"> Mentor educação </p>
+                </div>
+              </div>
+              <h3 className="font-semibold"> 3° Etapas </h3>
+              <div className="flex gap-3">
+                <img src={calendar_2} className="h-5 w-5" />
+                <p> 25/10/24 </p>
+              </div>
+              <div>
+                <p style={{backgroundColor: '#F0DDAA'}} className="text-orange-900 rounded px-4 py-2 font-semibold">
+                  {' '}
+                  Pendente{' '}
+                </p>
+              </div>
+            </div>
+            <hr className='border-slate-300'/>
           </div>
         </div>
       </div>

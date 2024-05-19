@@ -22,13 +22,13 @@ import calendar_2 from './assets/calendar_2.svg'
 function App() {
   return (
     <>
-      <div className="flex flex-row h-full w-screen font-dm">
+      <div className="flex flex-row w-screen font-dm">
         <Sidebar />
-        <div className="w-screen">
+        <div className="w-screen ml-24">
           <Header />
           <div className="bg-slate-100 text-black">
             <div className="px-2 md:px-10 lg:px-10 pt-5">
-              <div className="flex md:justify-between lg:justify-between gap-5 md:gap-0 lg:gap-0 pb-5">
+              <div className="flex justify-between gap-5 md:gap-0 lg:gap-0 pb-5">
                 <h3 className="text-xl font-bold"> Mentorados</h3>
                 <div className="flex gap-4 items-center">
                   <img src={arrow} className="h-4 w-4" />
@@ -36,10 +36,10 @@ function App() {
                 </div>
               </div>
               <div className="flex flex-col md:flex-row lg:flex-row gap-5 pb-5">
-                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 lg:w-6/12 p-5">
+                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5">
                   <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                     <div>
-                      <img src={helio} className="h-40 w-40" />
+                      <img src={helio} className="h-40 w-40 img-fix"/>
                     </div>
                     <div>
                       <div className="flex flex-col lg:flex-row justify-between">
@@ -47,10 +47,10 @@ function App() {
                           {' '}
                           Italo Souza Pereira{' '}
                         </h2>
-                        <img src={edit} className="h-10 w-10" />
+                        <img src={edit} className="h-10 w-10"/>
                       </div>
                       <div className="flex flex-col gap-5">
-                        <p className="text-sm text-slate-500">
+                        <p className="text-sm text-slate-500 font-poppins">
                           {' '}
                           Lead Marketing Digital{' '}
                         </p>
@@ -63,7 +63,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 lg:w-6/12 p-5">
+                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
                     <h3 className="text-2xl font-bold"> Sobre </h3>
                     <img src={edit} className="h-10 w-10" />
@@ -88,9 +88,9 @@ function App() {
                 </div>
               </div>
               <div className="flex flex-col md:flex-row lg:flex-row gap-5 pb-5 font-poppins">
-                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 lg:w-6/12 p-5">
+                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5">
                   <div className="flex flex-col lg:flex-row gap-5 justify-between lg:items-center">
-                    <h3 className="text-2xl font-bold"> Informações </h3>
+                    <h3 className="text-2xl font-bold font-dm"> Informações </h3>
                     <div className="flex gap-5">
                       <button
                         style={{ backgroundColor: '#4963FF' }}
@@ -147,9 +147,9 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 lg:w-6/12 p-5">
+                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5 font-poppins">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
-                    <h3 className="text-2xl font-bold"> Mentores </h3>
+                    <h3 className="text-2xl font-bold font-dm"> Mentores </h3>
                     <img src={edit} className="h-10 w-10" />
                   </div>
                   <div className="flex flex-col lg:flex-row pt-5 gap-3">
@@ -214,10 +214,10 @@ function App() {
                 </div>
               </div>
                 <Timeline />
-              <div className="flex flex-col md:flex-row lg:flex-row pt-5 gap-3">
-                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 lg:w-6/12 p-5">
+              <div className="flex flex-col md:flex-row lg:flex-row pt-5 gap-3 font-poppins">
+                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
-                    <h3 className="text-2xl font-bold"> Anexos </h3>
+                    <h3 className="text-2xl font-bold font-dm"> Anexos </h3>
                     <img src={plus} className="h-10 w-10" />
                   </div>
                   <div className="flex flex-col lg:flex-row pt-5">
@@ -271,9 +271,9 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="bg-white overflow-hidden border-2 border-slate-200 rounded-lg w-72 lg:w-6/12 p-5 font-poppins h-full crop">
+                <div className="bg-white overflow-hidden border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5 font-poppins h-full crop">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
-                    <h3 className="text-2xl font-bold"> Anotações </h3>
+                    <h3 className="text-2xl font-bold font-dm"> Anotações </h3>
                     <img src={plus} className="h-10 w-10" />
                   </div>
                   <div className="flex flex-col lg:flex-row pt-5">
@@ -286,7 +286,7 @@ function App() {
                           <div className="flex justify-between items-center">
                             <h2 className="font-bold"> Helio Martins </h2>
                             <div className="flex gap-2 lg:pl-80">
-                              <img src={calendar_2} className="h-5 w-5" />
+                              <img src={calendar_2} className="h-5 w-5"/>
                               <p className="text-sm"> 25/10/24 </p>
                             </div>
                           </div>

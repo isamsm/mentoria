@@ -10,8 +10,14 @@ body {
     height: 31em;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 600px) {
     .crop {
         height: 58em;
     }
-  }
+}
+
+@media (min-width: 600px) and (max-width: 1400px) {
+    .crop {
+        height: 51em;
+    }
+}

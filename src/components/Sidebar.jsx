@@ -13,7 +13,7 @@ import exit from '../assets/sidebar/exit.svg'
 export default function Sidebar() {
   return (
     <>
-      <div style={{backgroundColor: '#4963FF'}} className='flex flex-col justify-evenly w-24'>
+      <div style={{backgroundColor: '#4963FF'}} className='flex fixed h-full flex-col justify-evenly w-24'>
         <div className='flex flex-col gap-1 text-center'>
           <img src={logo} className='h-12'/>
           <hr className='border-white w-20 m-2 opacity-20'/>
@@ -26,9 +26,9 @@ export default function Sidebar() {
         <img src={admin} className='h-6'/>
         <img src={communication} className='h-6'/>
         <img src={education} className='h-12'/>
-        <img src={invoices} className='h-6 mb-32'/>
-        <hr className='border-white w-20 m-2 opacity-20'/>
-        <div className='flex gap-2 justify-center'>
+        <img src={invoices} className='h-6'/>
+        <hr className='border-white w-20 m-2 opacity-20 mt-24'/>
+        <div className='flex gap-2 justify-center pb-12'>
           <p className='font-semibold'> Sair </p>
           <img src={exit} />
         </div>
