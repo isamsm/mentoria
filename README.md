@@ -1,5 +1,9 @@
 # Teste front-end
 
+## Sobre
+
+### Tecnologias usadas: ReactJs e Tailwind
+
 ## Como rodar em sua máquina
 
 ### 1. Clonar
