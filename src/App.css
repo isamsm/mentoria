@@ -5,3 +5,13 @@
 body {
     overflow-x: hidden;
 }
+
+.crop {
+    height: 31em;
+}
+
+@media (max-width: 1400px) {
+    .crop {
+        height: 58em;
+    }
+  }
