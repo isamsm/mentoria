@@ -1,6 +1,7 @@
 import './App.css'
 import Sidebar from './components/Sidebar'
 import Header from './components/Header'
+import Timeline from  './components/Timeline'
 import arrow from './assets/arrow.svg'
 import italo from './assets/italo.png'
 import edit from './assets/edit.svg'
@@ -212,6 +213,7 @@ function App() {
                   </div>
                 </div>
               </div>
+                <Timeline />
               <div className="flex flex-col md:flex-row lg:flex-row pt-5 gap-3">
                 <div className="bg-white border-2 border-slate-200 rounded-lg w-72 lg:w-6/12 p-5">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
