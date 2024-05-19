@@ -3,7 +3,7 @@ import Sidebar from './components/Sidebar'
 import Header from './components/Header'
 import Timeline from  './components/Timeline'
 import arrow from './assets/arrow.svg'
-import italo from './assets/italo.png'
+import helio from './assets/helio.png'
 import edit from './assets/edit.svg'
 import instagram from './assets/instagram.svg'
 import facebook from './assets/facebook.svg'
@@ -27,7 +27,7 @@ function App() {
         <div className="w-screen">
           <Header />
           <div className="bg-slate-100 text-black">
-            <div className="px-2 md:px-10 lg:px-10 py-5">
+            <div className="px-2 md:px-10 lg:px-10 pt-5">
               <div className="flex md:justify-between lg:justify-between gap-5 md:gap-0 lg:gap-0 pb-5">
                 <h3 className="text-xl font-bold"> Mentorados</h3>
                 <div className="flex gap-4 items-center">
@@ -39,7 +39,7 @@ function App() {
                 <div className="bg-white border-2 border-slate-200 rounded-lg w-72 lg:w-6/12 p-5">
                   <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                     <div>
-                      <img src={italo} className="h-40 w-40" />
+                      <img src={helio} className="h-40 w-40" />
                     </div>
                     <div>
                       <div className="flex flex-col lg:flex-row justify-between">
@@ -156,7 +156,7 @@ function App() {
                     <div className="bg-white border-2 border-slate-200 rounded-lg lg:w-6/12 p-5">
                       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                         <div>
-                          <img src={italo} className="h-16 w-16" />
+                          <img src={helio} className="h-16 w-16" />
                         </div>
                         <div>
                           <div className="flex justify-between">
@@ -175,7 +175,7 @@ function App() {
                     <div className="bg-white border-2 border-slate-200 rounded-lg lg:w-6/12 p-5">
                       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                         <div>
-                          <img src={italo} className="h-16 w-16" />
+                          <img src={helio} className="h-16 w-16" />
                         </div>
                         <div>
                           <div className="flex justify-between">
@@ -195,7 +195,7 @@ function App() {
                   <div className="bg-white border-2 border-slate-200 rounded-lg lg:w-6/12 p-5 mt-5">
                     <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                       <div>
-                        <img className="h-16 w-16" src={italo} />
+                        <img className="h-16 w-16" src={helio} />
                       </div>
                       <div>
                         <div className="flex justify-between">
@@ -280,7 +280,7 @@ function App() {
                     <div className="border-2 border-slate-200 lg:w-full rounded-lg p-5">
                       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                         <div>
-                          <img src={italo} className="h-9 w-9 rounded-full" />
+                          <img src={helio} className="h-9 w-9 rounded-full" />
                         </div>
                         <div>
                           <div className="flex justify-between items-center">
@@ -321,7 +321,7 @@ function App() {
                     <div className="border-2 border-slate-200 lg:w-full rounded-lg p-5">
                       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                         <div>
-                          <img src={italo} className="h-9 w-9 rounded-full" />
+                          <img src={helio} className="h-9 w-9 rounded-full" />
                         </div>
                         <div>
                           <div className="flex justify-between items-center">
