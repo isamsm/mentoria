@@ -22,13 +22,13 @@ body {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1419px) {
     .crop {
-        height: 37em;
+        height: 35em;
     }
 }
 
-@media (min-width: 1420px) {
+@media (min-width: 1420px) and (max-width: 1744px) {
     .crop {
         height: 31em;
     }
