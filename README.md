@@ -21,3 +21,5 @@
 ### 4. Abrir em seu navegador
 
 A rota irá aparecer no terminal.
+
+E pronto, dessa forma você já terá o projeto rodando em sua máquina!
