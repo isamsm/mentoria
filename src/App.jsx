@@ -74,11 +74,11 @@ function App() {
                     <p className="text-sm text-slate-500">
                       {' '}
                       Lorem ipsum dolor sit amet consectetur. Viverra tempus
-                      vitae donec non ultrices. Habitant amet <br /> in gravida
+                      vitae donec non ultrices. Habitant amet in gravida
                       ante proin. Adipiscing ut et enim in. Vitae lacus pharetra
-                      pellentesque sodales eget <br /> porta euismod sit. Tempor
+                      pellentesque sodales eget porta euismod sit. Tempor
                       aliquet turpis sagittis sed quisque. Ultricies tempus
-                      facilisi mattis <br />{' '}
+                      facilisi mattis {' '}
                       <span className="text-slate-400">
                         {' '}
                         egestas sit tellus donec et sapien. Elementum rhoncus
