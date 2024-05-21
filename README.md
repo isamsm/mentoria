@@ -2,7 +2,7 @@
 
 ## Sobre
 
-### Tecnologias usadas: ReactJs e Tailwind
+### Projeto de site estático para aplicação de mentoria utilizando React e Tailwind
 
 ## Como rodar em sua máquina
 
