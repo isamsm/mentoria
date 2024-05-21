@@ -1,4 +1,4 @@
-# Teste front-end
+# Mentoria
 
 ## Sobre
 
@@ -8,7 +8,7 @@
 
 ### 1. Clonar
 
-```git clone https://github.com/isamsm/teste_frontend/```
+```git clone https://github.com/isamsm/mentoria/```
 
 ### 2. Instalar dependências 
 
