@@ -1,14 +1,14 @@
-# Teste front-end
+# Mentoria
 
 ## Sobre
 
-### Tecnologias usadas: ReactJs e Tailwind
+### Projeto de site estático para aplicação de mentoria utilizando React e Tailwind
 
 ## Como rodar em sua máquina
 
 ### 1. Clonar
 
-```git clone https://github.com/isamsm/teste_frontend/```
+```git clone https://github.com/isamsm/mentoria/```
 
 ### 2. Instalar dependências 
 
