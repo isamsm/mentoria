@@ -229,14 +229,14 @@ function App() {
                           <img src={file} className="h-9 w-9" alt='icone arquivo'/>
                         </div>
                         <div className='w-11/12'>
-                          <div className="flex flex-row justify-between">
+                          <div className="flex justify-between">
                             <h2 className="font-bold">
                               {' '}
                               ATA DE REUNÃO 05.12.23 - Antônio Duarte.pdf{' '}
                             </h2>
                             <img src={download} className="h-5 w-5" alt='icone download'/>
                           </div>
-                          <div className="flex flex-col lg:flex-row justify-between">
+                          <div className="flex justify-between">
                             <p className="text-sm text-slate-500">
                               {' '}
                               Anexado 04/12/2023 ás 15:00
