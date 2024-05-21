@@ -2,7 +2,7 @@
 
 ## Sobre
 
-### Projeto de página estático para aplicação de mentoria utilizando React e Tailwind.
+### Projeto de página estática para aplicação de mentoria utilizando React e Tailwind.
 
 ## Como rodar em sua máquina
 
