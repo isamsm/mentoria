@@ -16,8 +16,26 @@ body {
     }
 }
 
-@media (min-width: 600px) and (max-width: 1400px) {
+@media (min-width: 600px) and (max-width: 1024px) {
     .crop {
         height: 51em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .crop {
+        height: 37em;
+    }
+}
+
+@media (min-width: 1420px) {
+    .crop {
+        height: 31em;
+    }
+}
+
+@media (min-width: 1745px) {
+    .crop {
+        height: 32em;
     }
 }

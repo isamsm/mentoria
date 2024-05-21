@@ -1,4 +1,4 @@
-import logo from '../assets/sidebar/logo.svg'
+import logo from '../assets/sidebar/logo.png'
 import home from '../assets/sidebar/home.svg'
 import kanban from '../assets/sidebar/kanban.svg'
 import route from '../assets/sidebar/route.svg'
@@ -14,8 +14,8 @@ export default function Sidebar() {
   return (
     <>
       <div style={{backgroundColor: '#4963FF'}} className='flex fixed h-full flex-col justify-evenly w-24'>
-        <div className='flex flex-col gap-1 text-center'>
-          <img src={logo} className='h-12'/>
+        <div className='flex flex-col gap-1 items-center'>
+          <img src={logo} className='h-16 w-16'/>
           <hr className='border-white w-20 m-2 opacity-20'/>
         </div>
         <img src={home} className='h-6' alt='icone inicio'/>

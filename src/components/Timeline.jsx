@@ -1,5 +1,5 @@
-import italo from '../assets/timeline/italo.png'
-import lucio from '../assets/timeline/lucio.png'
+import antonio from '../assets/timeline/antonio.jpg'
+import diogo from '../assets/timeline/diogo.jpg'
 import check from '../assets/timeline/check.svg'
 import download from '../assets/download.svg'
 import arrow_up from '../assets/timeline/arrow_up.svg'
@@ -7,7 +7,7 @@ import arrow_down from '../assets/timeline/arrow_down.svg'
 import plus from '../assets/plus.svg'
 import file from '../assets/file.svg'
 import funnel from '../assets/timeline/funnel.svg'
-import helio from '../assets/helio.png'
+import eloisa from '../assets/eloisa.jpg'
 import calendar_2 from '../assets/calendar_2.svg'
 
 export default function Timeline() {
@@ -19,13 +19,13 @@ export default function Timeline() {
           <div className="pt-5 flex gap-5">
             <div className="flex flex-col items-center gap-1">
               <img src={check} alt='icone check'/>
-              <hr className="w-1 h-screen md:h-80 lg:h-64 bg-emerald-500 rounded" />
+              <hr className="w-1 h-5/6 lg:h-3/6 bg-emerald-500 rounded" />
               <img src={check} className="h-20 w-20" alt='icone check'/>
-              <hr className="w-1 h-48 md:h-28 lg:h-24 bg-emerald-500 rounded" />
-              <img src={italo} alt='foto italo'/>
-              <hr className="w-1 h-48 md:h-28 lg:h-24 bg-slate-100 rounded" />
-              <a className="border-2 bg-white border-slate-100 rounded-md h-8 w-8" />
-              <hr className="w-1 h-36 md:h-24 lg:h-24 bg-slate-100 rounded" />
+              <hr className="w-1 h-1/6 bg-emerald-500 rounded" />
+              <img src={antonio} className='rounded-full h-9 w-9' alt='foto antonio'/>
+              <hr className="w-1 h-1/6 bg-slate-100 rounded" />
+              <a className="border-2 bg-white border-slate-100 rounded-md h-14 w-11" />
+              <hr className="w-1 h-1/6 bg-slate-100 rounded" />
             </div>
             <div className="flex flex-col gap-5">
               <div className="border-2 border-slate-200 rounded-lg w-48 md:w-full lg:w-full lg:h-72 p-5">
@@ -33,11 +33,11 @@ export default function Timeline() {
                   <p className="text-slate-500"> 05/10/2024 </p>
                   <img src={arrow_up} alt='icone seta para cima'/>
                 </div>
-                <div className="flex flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center gap-1 md:gap-5 lg:gap-5 md:pt-5 lg:pt-5">
+                <div className="flex flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center gap-1 md:gap-5 lg:gap-5">
                   <h3 className="font-bold text-2xl font-dm"> 1° Etapa </h3>
                   <a className="border-4 border-slate-300 rounded-full" />
-                  <img src={lucio} alt='foto lucio'/>
-                  <h3 className="font-semibold text-xl"> Lucio Santana </h3>
+                  <img src={diogo} className='rounded-full h-12 w-12' alt='foto diogo'/>
+                  <h3 className="font-semibold text-xl"> Diogo Albuquerque </h3>
                 </div>
                 <div className="pt-5">
                   <p className="text-slate-500">
@@ -55,12 +55,12 @@ export default function Timeline() {
                   <div>
                     <img src={file} className="h-9 w-9" alt='icone arquivo'/>
                   </div>
-                  <div>
-                    <div className="flex flex-row lg:flex-row items-center justify-between">
+                  <div className='w-5/12'>
+                    <div className="flex items-center justify-between">
                       <div className="flex-col">
-                        <h2 className="font-bold pr-12">
+                        <h2 className="font-bold">
                           {' '}
-                          ATA DE REUNÃO 05.12.23 - Italo Silva.pdf{' '}
+                          ATA DE REUNÃO 05.12.23 - Antônio Duarte.pdf{' '}
                         </h2>
                         <p className="text-sm text-slate-500">
                           {' '}
@@ -80,8 +80,8 @@ export default function Timeline() {
                 <div className="flex flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center gap-1 md:gap-5 lg:gap-5 md:pt-5 lg:pt-5">
                   <h3 className="font-bold text-2xl font-dm"> 2° Etapa </h3>
                   <a className="border-4 border-slate-300 rounded-full" />
-                  <img src={lucio} alt='foto lucio'/>
-                  <h3 className="font-semibold text-xl"> Lucio Santana </h3>
+                  <img src={diogo} className='rounded-full h-12 w-12' alt='foto diogo'/>
+                  <h3 className="font-semibold text-xl"> Diogo Albuquerque </h3>
                 </div>
               </div>
               <div className="border-2 border-slate-200 rounded-lg w-48 md:w-full lg:w-full p-5">
@@ -92,8 +92,8 @@ export default function Timeline() {
                 <div className="flex flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center gap-1 md:gap-5 lg:gap-5 md:pt-5 lg:pt-5">
                   <h3 className="font-bold text-2xl font-dm"> 3° Etapa </h3>
                   <a className="border-4 border-slate-300 rounded-full" />
-                  <img src={lucio} alt='foto lucio'/>
-                  <h3 className="font-semibold text-xl"> Lucio Santana </h3>
+                  <img src={diogo} className='rounded-full h-12 w-12' alt='foto diogo'/>
+                  <h3 className="font-semibold text-xl"> Diogo Albuquerque </h3>
                 </div>
               </div>
               <div className="border-2 border-slate-200 rounded-lg w-48 md:w-full lg:w-full p-5">
@@ -104,8 +104,8 @@ export default function Timeline() {
                 <div className="flex flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center gap-1 md:gap-5 lg:gap-5 md:pt-5 lg:pt-5">
                   <h3 className="font-bold text-2xl font-dm"> 4° Etapa </h3>
                   <a className="border-4 border-slate-300 rounded-full" />
-                  <img src={lucio} alt='foto lucio'/>
-                  <h3 className="font-semibold text-xl"> Lucio Santana </h3>
+                  <img src={diogo} className='rounded-full h-12 w-12' alt='foto diogo'/>
+                  <h3 className="font-semibold text-xl"> Diogo Albuquerque </h3>
                 </div>
               </div>
             </div>
@@ -118,23 +118,23 @@ export default function Timeline() {
                 <img src={funnel} alt='icone funil'/>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row lg:flex-row justify-between pt-8 px-8 pb-4 font-semibold font-dm gap-5 md:gap-0 lg:gap-0">
+            <div className="flex flex-col lg:flex-row justify-between pt-8 px-8 pb-4 font-semibold font-dm gap-5 lg:gap-0">
               <p className="text-slate-500 w-6/12"> Nome da tarefa </p>
-              <p className="text-slate-500 w-4/12"> Mentor </p>
+              <p className="text-slate-500 w-5/12"> Mentor </p>
               <p className="text-slate-500 w-2/12"> Etapas </p>
-              <p className="text-slate-500 w-2/12"> Data de validade </p>
+              <p className="text-slate-500 w-3/12"> Data de validade </p>
               <p className="text-slate-500 w-1/12"> Status </p>
             </div>
             <hr className='border-slate-300'/>
-            <div className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center justify-between p-5 gap-5 md:gap-0 lg:gap-0">
-              <p className='font-semibold md:w-4/12'> Leia o livro “Arte da Guerra e faça um resumo </p>
-              <div className="flex md:flex-col gap-3 border-2 border-slate-300 md:w-36 lg:w-72 rounded-lg p-3">
+            <div className="flex flex-col lg:flex-row lg:items-center justify-between p-5 gap-5 lg:gap-0">
+              <p className='font-semibold'> Leia o livro “Arte da Guerra e faça um resumo </p>
+              <div className="flex flex-col lg:flex-row gap-3 border-2 border-slate-300 lg:w-72 rounded-lg p-3">
                 <div>
-                  <img src={helio} className="h-12 w-12" alt='foto mentor'/>
+                  <img src={eloisa} className="h-12 w-12 rounded" alt='foto mentora'/>
                 </div>
                 <div>
-                  <p> Helio Martins</p>
-                  <p className="text-slate-500"> Mentor educação </p>
+                  <p> Eloisa Barreto </p>
+                  <p className="text-slate-500"> Mentora educação </p>
                 </div>
               </div>
               <h3 className="font-semibold"> 2° Etapas </h3>
@@ -150,15 +150,15 @@ export default function Timeline() {
               </div>
             </div>
             <hr className='border-slate-300'/>
-            <div className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center justify-between p-5 gap-5 md:gap-0 lg:gap-0">
-              <p className='font-semibold md:w-4/12'> Leia o livro “Arte da Guerra e faça um resumo </p>
-              <div className="flex md:flex-col gap-3 border-2 border-slate-300 md:w-36 lg:w-72 rounded-lg p-3">
+            <div className="flex flex-col lg:flex-row lg:items-center justify-between p-5 gap-5 lg:gap-0">
+              <p className='font-semibold'> Leia o livro “Arte da Guerra e faça um resumo </p>
+              <div className="flex flex-col lg:flex-row gap-3 border-2 border-slate-300 lg:w-72 rounded-lg p-3">
                 <div>
-                  <img src={helio} className="h-12 w-12" alt='foto mentor'/>
+                  <img src={eloisa} className="h-12 w-12 rounded" alt='foto mentora'/>
                 </div>
                 <div>
-                  <p> Helio Martins</p>
-                  <p className="text-slate-500"> Mentor educação </p>
+                  <p> Eloisa Barreto </p>
+                  <p className="text-slate-500"> Mentora educação </p>
                 </div>
               </div>
               <h3 className="font-semibold"> 1° Etapas </h3>
@@ -174,15 +174,15 @@ export default function Timeline() {
               </div>
             </div>
             <hr className='border-slate-300'/>
-            <div className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center justify-between p-5 gap-5 md:gap-0 lg:gap-0">
-              <p className='font-semibold md:w-4/12'> Leia o livro “Arte da Guerra e faça um resumo </p>
-              <div className="flex md:flex-col gap-3 border-2 border-slate-300 md:w-36 lg:w-72 rounded-lg p-3">
+            <div className="flex flex-col lg:flex-row lg:items-center justify-between p-5 gap-5 lg:gap-0">
+              <p className='font-semibold'> Leia o livro “Arte da Guerra e faça um resumo </p>
+              <div className="flex flex-col lg:flex-row gap-3 border-2 border-slate-300 lg:w-72 rounded-lg p-3">
                 <div>
-                  <img src={helio} className="h-12 w-12" alt='foto mentor'/>
+                  <img src={eloisa} className="h-12 w-12 rounded" alt='foto mentora'/>
                 </div>
                 <div>
-                  <p> Helio Martins</p>
-                  <p className="text-slate-500"> Mentor educação </p>
+                  <p> Eloisa Barreto </p>
+                  <p className="text-slate-500"> Mentora educação </p>
                 </div>
               </div>
               <h3 className="font-semibold"> 3° Etapas </h3>
