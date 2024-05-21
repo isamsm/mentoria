@@ -2,7 +2,7 @@
 
 ## Sobre
 
-### Projeto de página estático para aplicação de mentoria utilizando React e Tailwind.
+### Projeto de página estática para aplicação de mentoria utilizando React e Tailwind.
 
 ## Como rodar em sua máquina
 
@@ -21,3 +21,5 @@
 ### 4. Abrir em seu navegador
 
 A rota irá aparecer no terminal.
+
+E pronto, dessa forma você já terá o projeto rodando em sua máquina!
