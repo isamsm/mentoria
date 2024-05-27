@@ -29,7 +29,7 @@ export default function Sidebar() {
         <img src={invoices} className='h-6' alt='icone escalação'/>
         <hr className='border-white w-20 m-2 opacity-20 mt-24'/>
         <div className='flex gap-2 justify-center pb-12'>
-          <p className='font-semibold'> Sair </p>
+          <p className='font-semibold text-white'> Sair </p>
           <img src={exit} alt='icone sair'/>
         </div>
       </div>

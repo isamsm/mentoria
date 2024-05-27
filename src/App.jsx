@@ -95,8 +95,8 @@ function App() {
                     <h3 className="text-2xl font-bold font-dm"> Informações </h3>
                     <div className="flex gap-5">
                       <button
-                        style={{ backgroundColor: '#4963FF' }}
-                        className="flex gap-2 items-center text-sm text-white"
+                        style={{ backgroundColor: '#4963FF'}}
+                        className="flex px-5 rounded gap-2 items-center text-sm text-white"
                       >
                         <img src={whatsapp} className="h-6 w-6" alt='icone whatsapp'/>
                         Entre em contato
