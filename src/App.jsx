@@ -199,7 +199,7 @@ function App() {
                       <div>
                         <img className="h-16 w-16 rounded" src={eloisa} alt='foto mentora'/>
                       </div>
-                      <di className='w-8/12'v>
+                      <di className='w-8/12'>
                         <div className="flex justify-between">
                           <h2 className="font-bold"> Eloisa Barreto </h2>
                           <img src={trash} className="h-5 w-5" alt='icone apagar'/>
