@@ -24,8 +24,8 @@ function App() {
     <>
       <div className="flex flex-row w-screen font-dm">
         <Sidebar />
-        <div className="w-screen ml-24">
-          <div className='mb-36 lg:mb-20'>
+        <div className="w-screen ml-16 md:ml-24 lg:ml-24">
+          <div className='mb-28 lg:mb-20'>
             <Header />
           </div>
           <div className="bg-slate-100 text-black">

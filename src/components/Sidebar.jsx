@@ -13,9 +13,9 @@ import exit from '../assets/sidebar/exit.svg'
 export default function Sidebar() {
   return (
     <>
-      <div style={{backgroundColor: '#4963FF'}} className='flex fixed h-full flex-col justify-evenly w-24'>
+      <div style={{backgroundColor: '#4963FF'}} className='flex fixed h-full flex-col justify-evenly w-16 md:w-24 lg:w-24'>
         <div className='flex flex-col gap-1 items-center'>
-          <img src={logo} className='h-16 w-16'/>
+          <img src={logo} className='h-12 md:h-16 lg:h-16 w-12 md:w-16 lg:w-16'/>
           <hr className='border-white w-20 m-2 opacity-20'/>
         </div>
         <img src={home} className='h-6' alt='icone inicio'/>
