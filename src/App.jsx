@@ -38,13 +38,13 @@ function App() {
                 </div>
               </div>
               <div className="flex flex-col md:flex-row lg:flex-row gap-5 pb-5">
-                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5">
+                <div className="bg-white border-2 border-slate-200 rounded-lg w-6/6 md:w-6/12 lg:w-6/12 p-5">
                   <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
                     <div>
                       <img src={eloisa} className="h-36 w-36 lg:w-40 rounded" alt='foto de mentorado'/>
                     </div>
-                    <div className='w-9/12'>
-                      <div className="flex flex-col lg:flex-row justify-between">
+                    <div className='lg:w-9/12'>
+                      <div className="flex flex-row justify-between">
                         <h2 className="text-2xl font-bold">
                           {' '}
                           Eloisa Barreto{' '}
@@ -65,7 +65,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5">
+                <div className="bg-white border-2 border-slate-200 rounded-lg w-6/6 md:w-6/12 lg:w-6/12 p-5">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
                     <h3 className="text-2xl font-bold"> Sobre </h3>
                     <img src={edit} className="h-10 w-10" alt='icone de edição'/>
@@ -90,7 +90,7 @@ function App() {
                 </div>
               </div>
               <div className="flex flex-col md:flex-row lg:flex-row gap-5 pb-5 font-poppins">
-                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5">
+                <div className="bg-white border-2 border-slate-200 rounded-lg w-6/6 md:w-6/12 lg:w-6/12 p-5">
                   <div className="flex flex-col lg:flex-row gap-5 justify-between lg:items-center">
                     <h3 className="text-2xl font-bold font-dm"> Informações </h3>
                     <div className="flex gap-5">
@@ -149,7 +149,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5 font-poppins">
+                <div className="bg-white border-2 border-slate-200 rounded-lg w-6/6 md:w-6/12 lg:w-6/12 p-5 font-poppins">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
                     <h3 className="text-2xl font-bold font-dm"> Mentores </h3>
                     <img src={edit} className="h-10 w-10" alt='icone de edição'/>
@@ -160,7 +160,7 @@ function App() {
                         <div>
                           <img src={eloisa} className="h-16 w-16 rounded" alt='foto mentora'/>
                         </div>
-                        <div className='w-8/12'>
+                        <div className='lg:w-8/12'>
                           <div className="flex justify-between">
                             <h2 className="font-bold"> Eloisa Barreto </h2>
                             <img src={trash} className="h-5 w-5" alt='icone apagar'/>
@@ -179,7 +179,7 @@ function App() {
                         <div>
                           <img src={eloisa} className="h-16 w-16 rounded" alt='foto mentora'/>
                         </div>
-                        <div className='w-8/12'>
+                        <div className='lg:w-8/12'>
                           <div className="flex justify-between">
                             <h2 className="font-bold"> Eloisa Barreto </h2>
                             <img src={trash} className="h-5 w-5" alt='icone apagar'/>
@@ -199,7 +199,7 @@ function App() {
                       <div>
                         <img className="h-16 w-16 rounded" src={eloisa} alt='foto mentora'/>
                       </div>
-                      <di className='w-8/12'>
+                      <di className='lg:w-8/12'>
                         <div className="flex justify-between">
                           <h2 className="font-bold"> Eloisa Barreto </h2>
                           <img src={trash} className="h-5 w-5" alt='icone apagar'/>
@@ -217,7 +217,7 @@ function App() {
               </div>
                 <Timeline />
               <div className="flex flex-col md:flex-row lg:flex-row pt-5 gap-3 font-poppins">
-                <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5">
+                <div className="bg-white border-2 border-slate-200 rounded-lg w-6/6 md:w-6/12 lg:w-6/12 p-5">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
                     <h3 className="text-2xl font-bold font-dm"> Anexos </h3>
                     <img src={plus} className="h-10 w-10" alt='icone adição'/>
@@ -228,7 +228,7 @@ function App() {
                         <div>
                           <img src={file} className="h-9 w-9" alt='icone arquivo'/>
                         </div>
-                        <div className='w-11/12'>
+                        <div className='lg:w-11/12'>
                           <div className="flex justify-between">
                             <h2 className="font-bold">
                               {' '}
@@ -253,7 +253,7 @@ function App() {
                         <div>
                           <img src={file} className="h-9 w-9" alt='icone arquivo'/>
                         </div>
-                        <div className='w-11/12'>
+                        <div className='lg:w-11/12'>
                           <div className="flex justify-between">
                             <h2 className="font-bold">
                               {' '}
@@ -273,14 +273,14 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="bg-white overflow-hidden border-2 border-slate-200 rounded-lg w-72 md:w-6/12 lg:w-6/12 p-5 font-poppins h-full crop">
+                <div className="bg-white overflow-hidden border-2 border-slate-200 rounded-lg w-6/6 md:w-6/12 lg:w-6/12 p-5 font-poppins h-full crop">
                   <div className="flex gap-5 justify-between md:items-center lg:items-center">
                     <h3 className="text-2xl font-bold font-dm"> Anotações </h3>
                     <img src={plus} className="h-10 w-10" alt='icone adição'/>
                   </div>
                   <div className="flex flex-col lg:flex-row pt-5">
                     <div className="border-2 border-slate-200 lg:w-full rounded-lg p-5">
-                      <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
+                      <div className="flex flex-row gap-2 lg:gap-5 lg:items-center">
                         <div>
                           <img src={eloisa} className="h-9 w-9 rounded-full" alt='foto mentora'/>
                         </div>
@@ -321,7 +321,7 @@ function App() {
                   </div>
                   <div className="flex flex-col lg:flex-row pt-5">
                     <div className="border-2 border-slate-200 lg:w-full rounded-lg p-5">
-                      <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
+                      <div className="flex flex-row gap-2 lg:gap-5 lg:items-center">
                         <div>
                           <img src={eloisa} className="h-9 w-9 rounded-full" alt='foto mentora'/>
                         </div>

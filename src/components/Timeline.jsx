@@ -14,13 +14,13 @@ export default function Timeline() {
   return (
     <>
       <div className="flex flex-col md:flex-row lg:flex-row gap-5 pb-5 font-poppins">
-        <div className="bg-white border-2 border-slate-200 rounded-lg w-72 md:w-full lg:w-full p-5">
+        <div className="bg-white border-2 border-slate-200 rounded-lg w-full p-5">
           <h3 className="text-2xl font-bold font-dm"> Jornada </h3>
           <div className="pt-5 flex gap-5">
             <div className="flex flex-col items-center gap-1">
               <img src={check} alt='icone check'/>
               <hr className="w-1 h-5/6 lg:h-3/6 bg-emerald-500 rounded" />
-              <img src={check} className="h-20 w-20" alt='icone check'/>
+              <img src={check} alt='icone check'/>
               <hr className="w-1 h-1/6 bg-emerald-500 rounded" />
               <img src={antonio} className='rounded-full h-9 w-9' alt='foto antonio'/>
               <hr className="w-1 h-1/6 bg-slate-100 rounded" />
@@ -28,7 +28,7 @@ export default function Timeline() {
               <hr className="w-1 h-1/6 bg-slate-100 rounded" />
             </div>
             <div className="flex flex-col gap-5">
-              <div className="border-2 border-slate-200 rounded-lg w-48 md:w-full lg:w-full lg:h-72 p-5">
+              <div className="border-2 border-slate-200 rounded-lg w-full lg:h-72 p-5">
                 <div className="flex justify-between">
                   <p className="text-slate-500"> 05/10/2024 </p>
                   <img src={arrow_up} alt='icone seta para cima'/>
@@ -55,7 +55,7 @@ export default function Timeline() {
                   <div>
                     <img src={file} className="h-9 w-9" alt='icone arquivo'/>
                   </div>
-                  <div className='w-5/12'>
+                  <div className='md:w-5/12 lg:w-5/12'>
                     <div className="flex items-center justify-between">
                       <div className="flex-col">
                         <h2 className="font-bold">
@@ -72,7 +72,7 @@ export default function Timeline() {
                   </div>
                 </div>
               </div>
-              <div className="border-2 border-slate-200 rounded-lg w-48 md:w-full lg:w-full p-5">
+              <div className="border-2 border-slate-200 rounded-lg w-full p-5">
                 <div className="flex justify-between">
                   <p className="text-slate-500"> 05/10/2024 </p>
                   <img src={arrow_down} alt='icone seta para baixo'/>
@@ -84,7 +84,7 @@ export default function Timeline() {
                   <h3 className="font-semibold text-xl"> Diogo Albuquerque </h3>
                 </div>
               </div>
-              <div className="border-2 border-slate-200 rounded-lg w-48 md:w-full lg:w-full p-5">
+              <div className="border-2 border-slate-200 rounded-lg w-full p-5">
                 <div className="flex justify-between">
                   <p className="text-slate-500"> 05/10/2024 </p>
                   <img src={arrow_down} alt='icone seta para baixo'/>
@@ -96,7 +96,7 @@ export default function Timeline() {
                   <h3 className="font-semibold text-xl"> Diogo Albuquerque </h3>
                 </div>
               </div>
-              <div className="border-2 border-slate-200 rounded-lg w-48 md:w-full lg:w-full p-5">
+              <div className="border-2 border-slate-200 rounded-lg w-full p-5">
                 <div className="flex justify-between">
                   <p className="text-slate-500"> 05/10/2024 </p>
                   <img src={arrow_down} alt='icone seta para baixo'/>

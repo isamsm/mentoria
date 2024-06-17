@@ -6,7 +6,7 @@ import arrow from '../assets/header/arrow.svg'
 export default function Header() {
     return (
         <>
-            <div className='flex w-screen fixed flex-row bg-white gap-0 md:justify-between lg:justify-between items-center h-24 lg:h-20 text-black'>
+            <div className='flex w-screen fixed flex-row bg-white gap-0 md:justify-between lg:justify-between items-center h-28 lg:h-20 text-black'>
                 <div className='flex flew-row gap-1 md:gap-5 lg:gap-5 mx-5 items-center'>
                     <img src={mentoring} className='h-8 w-8 md:h-12 lg:h-12 md:w-12 lg:w-12 rounded' alt='icone mentoria'/>
                     <p className='font-semibold pt-2'> Mentoria </p>
