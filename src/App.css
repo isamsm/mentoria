@@ -12,25 +12,25 @@ body {
 
 @media (max-width: 600px) {
     .crop {
-        height: 58em;
+        height: 47em;
     }
 }
 
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 819px) {
     .crop {
-        height: 51em;
+        height: 54em;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1023px) {
+    .crop {
+        height: 45em;
     }
 }
 
 @media (min-width: 1024px) and (max-width: 1419px) {
     .crop {
-        height: 35em;
-    }
-}
-
-@media (min-width: 1420px) and (max-width: 1744px) {
-    .crop {
-        height: 31em;
+        height: 36em;
     }
 }
 
